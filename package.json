@@ -2,10 +2,10 @@
   "name": "webllm-react-hook",
   "version": "0.1.0",
   "description": "A React hook for integrating MLC WebLLM with service worker support.",
-  "main": "useWebLLM.ts",
-  "types": "useWebLLM.ts",
+  "main": "dist/useWebLLM.js",
+  "types": "dist/useWebLLM.d.ts",
   "files": [
-    "useWebLLM.ts"
+    "dist"
   ],
   "keywords": [
     "react",
@@ -30,5 +30,8 @@
   },
   "dependencies": {
     "@mlc-ai/web-llm": "^0.2.79"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
