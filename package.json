@@ -1,0 +1,34 @@
+{
+  "name": "webllm-react-hook",
+  "version": "0.1.0",
+  "description": "A React hook for integrating MLC WebLLM with service worker support.",
+  "main": "useWebLLM.ts",
+  "types": "useWebLLM.ts",
+  "files": [
+    "useWebLLM.ts"
+  ],
+  "keywords": [
+    "react",
+    "hook",
+    "webllm",
+    "mlc",
+    "ai",
+    "service-worker"
+  ],
+  "author": "Arman Naj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armannaj/webllm-react-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/armannaj/webllm-react-hook/issues"
+  },
+  "homepage": "https://github.com/armannaj/webllm-react-hook#readme",
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.79"
+  }
+}
